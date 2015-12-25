@@ -83,7 +83,7 @@ public class TaskManager implements TaskController {
 
     private boolean isStop = true;  // 标识执行器是否接收新的任务
     private boolean isShutdown = true; // 标识执行器是否立即结束
-    private boolean isRunning = false;  // 标识执行器是否正在运行
+    private boolean isRunning = false;  // 标识执行器是否正在运行 true:是  
 
     public void start() {
         if (executor == null) {

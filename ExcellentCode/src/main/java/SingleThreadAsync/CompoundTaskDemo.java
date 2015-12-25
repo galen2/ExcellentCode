@@ -24,6 +24,5 @@ public class CompoundTaskDemo {
         executor.submit(ioTask);
         executor.submit(piTask);
         executor.submit(guardTask);
-
     }
 }
